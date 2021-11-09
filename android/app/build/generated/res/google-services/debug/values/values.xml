@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">762857253899-m678b1hskrf14n3o6ksc3jh4t3p8i1mu.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">762857253899</string>
+    <string name="google_api_key" translatable="false">AIzaSyAqAtRJvomzwdcgFU_uZxEBgU9ojJiRIB4</string>
+    <string name="google_app_id" translatable="false">1:762857253899:android:12411c48ae674b50a26b0e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAqAtRJvomzwdcgFU_uZxEBgU9ojJiRIB4</string>
+    <string name="google_storage_bucket" translatable="false">garage-c58fa.appspot.com</string>
+    <string name="project_id" translatable="false">garage-c58fa</string>
+</resources>

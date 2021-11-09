@@ -1,0 +1,6 @@
+module Pods_GarageCustomer {
+  umbrella header "Pods-GarageCustomer-umbrella.h"
+
+  export *
+  module * { export * }
+}

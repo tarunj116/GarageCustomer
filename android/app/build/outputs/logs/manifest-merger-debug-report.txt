@@ -1,0 +1,853 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/925ce56db7a39143bc05ed1cf048f91d/flipper-network-plugin-0.47.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d728f1e00a0eef8272d337791436a543/flipper-fresco-plugin-0.47.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-clipboard_clipboard] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:react-native-dark-mode] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-dark-mode/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-device-info] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-element-dropdown] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-element-dropdown/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:3:1-12:12
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-gesture-handler] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-get-location] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-i18n] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-localize] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-push-notification] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-vector-icons] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.62.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f3f690ce5d28ac9c6e5bf7e5fbbd935/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5723b1af88e28204dbe6acfba0aa8643/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7bcf734eedf88e33024690de8208a8f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fb07e82a267015d7ba0dbdfe7a848e26/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /home/sumit/.gradle/caches/transforms-2/files-2.1/ed6d151b5f2befc22dbef7d867345ed3/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aee8fac9094f2589612ccbaaf37f95c2/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/3e07326dc7bc74d5a4491c1ac3a536a8/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ec3b3f8bb7528dac7ca55c05f2b29fef/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9d6b409dd2a2464b2701f97e682b9aa9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/98291fa95eb59eff4e1dbe4452ffd69f/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/bfb06ea3ab39a56273acd63ffea1e528/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b1861b30e55db8d487346ba2c7b2fcf7/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e54a589347c70ce8b50083a94f303638/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e2eb24bdca79485ea83a2c93611af8/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6405736ead8fe6a07bb51dc4a907500b/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcd26107f36f578b1c253b0cb45cbe7a/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6387da3c4d51dd4149a9d2c509fecfdc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ee2c10d739a0454a3d7e32767ddcd600/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1032fb564a8a047a70d8cb68535a2f7b/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ea9daa7798ececcad912699c5cce00fc/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9f1d7bca4ccdf1e6d9266e333aeb1b45/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fc45eef4cbac0ba8f8d2a4b89fcc70b4/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e612b2fe14067e3fef3fa8e33c0acb/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/15988a2f074b0642f4f9f36ff63a662b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/40991424775712406d3dd1938123fc07/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/916605716487b7709c7503dad1ee291b/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d09d30bd44864cceb4a9f867b652f690/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/01ad00758a4642ba6feed30534a8aaab/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/be53313e22adef0974e5444c8f305fa1/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/563ef5bcb2344579b4c7e50fddd9d952/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/107b3f0104b06aff367e9fe9e08613f8/play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/116991b6fc53bf6554e21dd323efcfd6/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/2a809fbd7fe029609552b7df6766fd61/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8b1ba43f4697a56bae65cc904625dd4e/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/84126b07a123ebdea7e0c6c6cd413992/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b5a18a0da54b18a20f2100f3abaf1e05/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/16ba3e55679fa2b64e642da09cd3ed61/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f15e53141a2d21f96e9d92ce9a74e73e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f901c86f2122ab60f0b978cf761342e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ca4ff15c8038fdedd38f814180a89f6e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f6e9d225025b93dfd3f674adf94610a7/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c9bc567399a25c3298f7f8574525b070/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/09325163c950f62e90b0efe051074e49/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8c044772edc0e90dee64da632cb5f943/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8fcec842cf0c1f3b27cf2dc389f318be/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/528bec2801049c33a9b8b44414f4b8eb/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/80b4e079d7044d978bb6aaa31eb54aad/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/06d3860a64128f9d8a15b381ec3416aa/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1c14ff95100b1d6c6707853f231817e8/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/df57f8f6f1d78d3d7b6517403ebcec36/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/92315b7a1c1918cb5aa2adc8d65932b1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aacb58795383dcf12af3a9cace0ceca0/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6c204108d8e2375cabe6162298fc19cf/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8f4adfe0bcdc3c0426f1fb18d38360f7/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f7f890af77dc8c81b39c14a8c96961dd/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7bde7a43e2f8d038f72ebfb12a5c861b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62f0e1b8f9c55b7348dbdcd87d5e04be/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/51ce20a7f69ff05f59af61c2642904c3/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/805395bb649f828f1c97699b3b0013db/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/2ace6c87f73e8711212dabe64fd3764a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/75cde69f3a5242135001bc3c5e183219/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6ab78fd688b7e9710ff19a77394d9ea5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/759d509ec6cbd6c705f1085eb69f9de3/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/789654530c07d53babe6897af7f7411f/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/sumit/.gradle/caches/transforms-2/files-2.1/0884740eb6b174eb3f72b63e769b1229/conceal-1.1.3/AndroidManifest.xml:7:1-16:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e957f845f5498b9169734386c951ff2c/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62403ddf31b7910ed174150c8113455e/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:3-63
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:1-76
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:18-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:3-76
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:1-76
+MERGED from [:react-native-get-location] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-get-location] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:18-74
+uses-permission#android.permission.INTERNET
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from [:react-native-community_datetimepicker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:react-native-dark-mode] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-dark-mode/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-dark-mode] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-dark-mode/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.62.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f3f690ce5d28ac9c6e5bf7e5fbbd935/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f3f690ce5d28ac9c6e5bf7e5fbbd935/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ea9daa7798ececcad912699c5cce00fc/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ea9daa7798ececcad912699c5cce00fc/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d09d30bd44864cceb4a9f867b652f690/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d09d30bd44864cceb4a9f867b652f690/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/01ad00758a4642ba6feed30534a8aaab/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/01ad00758a4642ba6feed30534a8aaab/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/be53313e22adef0974e5444c8f305fa1/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/be53313e22adef0974e5444c8f305fa1/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/107b3f0104b06aff367e9fe9e08613f8/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/107b3f0104b06aff367e9fe9e08613f8/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1c14ff95100b1d6c6707853f231817e8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1c14ff95100b1d6c6707853f231817e8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:11:7-39
+	tools:ignore
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:13:7-52
+	tools:targetApi
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:usesCleartextTraffic
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.garagecustomer.MainActivity
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:16:7-26:18
+	android:label
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:launchMode
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:20:9-40
+	android:windowSoftInputMode
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:19:9-86
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:17-81
+uses-sdk
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/925ce56db7a39143bc05ed1cf048f91d/flipper-network-plugin-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/925ce56db7a39143bc05ed1cf048f91d/flipper-network-plugin-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d728f1e00a0eef8272d337791436a543/flipper-fresco-plugin-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d728f1e00a0eef8272d337791436a543/flipper-fresco-plugin-0.47.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-clipboard_clipboard] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clipboard_clipboard] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-dark-mode] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-dark-mode/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-dark-mode] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-dark-mode/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-element-dropdown] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-element-dropdown/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-element-dropdown] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-element-dropdown/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-get-location] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-i18n] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-i18n] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f3f690ce5d28ac9c6e5bf7e5fbbd935/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f3f690ce5d28ac9c6e5bf7e5fbbd935/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5723b1af88e28204dbe6acfba0aa8643/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5723b1af88e28204dbe6acfba0aa8643/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7bcf734eedf88e33024690de8208a8f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7bcf734eedf88e33024690de8208a8f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fb07e82a267015d7ba0dbdfe7a848e26/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fb07e82a267015d7ba0dbdfe7a848e26/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/sumit/.gradle/caches/transforms-2/files-2.1/ed6d151b5f2befc22dbef7d867345ed3/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/sumit/.gradle/caches/transforms-2/files-2.1/ed6d151b5f2befc22dbef7d867345ed3/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aee8fac9094f2589612ccbaaf37f95c2/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aee8fac9094f2589612ccbaaf37f95c2/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/3e07326dc7bc74d5a4491c1ac3a536a8/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/3e07326dc7bc74d5a4491c1ac3a536a8/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ec3b3f8bb7528dac7ca55c05f2b29fef/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ec3b3f8bb7528dac7ca55c05f2b29fef/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9d6b409dd2a2464b2701f97e682b9aa9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9d6b409dd2a2464b2701f97e682b9aa9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/98291fa95eb59eff4e1dbe4452ffd69f/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/98291fa95eb59eff4e1dbe4452ffd69f/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/bfb06ea3ab39a56273acd63ffea1e528/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/bfb06ea3ab39a56273acd63ffea1e528/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b1861b30e55db8d487346ba2c7b2fcf7/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b1861b30e55db8d487346ba2c7b2fcf7/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e54a589347c70ce8b50083a94f303638/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e54a589347c70ce8b50083a94f303638/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e2eb24bdca79485ea83a2c93611af8/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e2eb24bdca79485ea83a2c93611af8/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6405736ead8fe6a07bb51dc4a907500b/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6405736ead8fe6a07bb51dc4a907500b/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcd26107f36f578b1c253b0cb45cbe7a/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcd26107f36f578b1c253b0cb45cbe7a/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6387da3c4d51dd4149a9d2c509fecfdc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6387da3c4d51dd4149a9d2c509fecfdc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ee2c10d739a0454a3d7e32767ddcd600/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ee2c10d739a0454a3d7e32767ddcd600/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1032fb564a8a047a70d8cb68535a2f7b/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1032fb564a8a047a70d8cb68535a2f7b/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ea9daa7798ececcad912699c5cce00fc/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ea9daa7798ececcad912699c5cce00fc/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9f1d7bca4ccdf1e6d9266e333aeb1b45/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/9f1d7bca4ccdf1e6d9266e333aeb1b45/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fc45eef4cbac0ba8f8d2a4b89fcc70b4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fc45eef4cbac0ba8f8d2a4b89fcc70b4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e612b2fe14067e3fef3fa8e33c0acb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/43e612b2fe14067e3fef3fa8e33c0acb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/15988a2f074b0642f4f9f36ff63a662b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/15988a2f074b0642f4f9f36ff63a662b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/40991424775712406d3dd1938123fc07/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/40991424775712406d3dd1938123fc07/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/916605716487b7709c7503dad1ee291b/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/916605716487b7709c7503dad1ee291b/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d09d30bd44864cceb4a9f867b652f690/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/d09d30bd44864cceb4a9f867b652f690/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/01ad00758a4642ba6feed30534a8aaab/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/01ad00758a4642ba6feed30534a8aaab/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/be53313e22adef0974e5444c8f305fa1/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/be53313e22adef0974e5444c8f305fa1/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/563ef5bcb2344579b4c7e50fddd9d952/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/563ef5bcb2344579b4c7e50fddd9d952/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/107b3f0104b06aff367e9fe9e08613f8/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/107b3f0104b06aff367e9fe9e08613f8/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/116991b6fc53bf6554e21dd323efcfd6/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/116991b6fc53bf6554e21dd323efcfd6/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/2a809fbd7fe029609552b7df6766fd61/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sumit/.gradle/caches/transforms-2/files-2.1/2a809fbd7fe029609552b7df6766fd61/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8b1ba43f4697a56bae65cc904625dd4e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8b1ba43f4697a56bae65cc904625dd4e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/84126b07a123ebdea7e0c6c6cd413992/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/84126b07a123ebdea7e0c6c6cd413992/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b5a18a0da54b18a20f2100f3abaf1e05/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b5a18a0da54b18a20f2100f3abaf1e05/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/16ba3e55679fa2b64e642da09cd3ed61/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/16ba3e55679fa2b64e642da09cd3ed61/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f15e53141a2d21f96e9d92ce9a74e73e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f15e53141a2d21f96e9d92ce9a74e73e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f901c86f2122ab60f0b978cf761342e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7f901c86f2122ab60f0b978cf761342e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ca4ff15c8038fdedd38f814180a89f6e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/ca4ff15c8038fdedd38f814180a89f6e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f6e9d225025b93dfd3f674adf94610a7/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f6e9d225025b93dfd3f674adf94610a7/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c9bc567399a25c3298f7f8574525b070/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c9bc567399a25c3298f7f8574525b070/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/09325163c950f62e90b0efe051074e49/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/09325163c950f62e90b0efe051074e49/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8c044772edc0e90dee64da632cb5f943/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8c044772edc0e90dee64da632cb5f943/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8fcec842cf0c1f3b27cf2dc389f318be/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8fcec842cf0c1f3b27cf2dc389f318be/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/528bec2801049c33a9b8b44414f4b8eb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/528bec2801049c33a9b8b44414f4b8eb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/80b4e079d7044d978bb6aaa31eb54aad/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/80b4e079d7044d978bb6aaa31eb54aad/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/06d3860a64128f9d8a15b381ec3416aa/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/06d3860a64128f9d8a15b381ec3416aa/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1c14ff95100b1d6c6707853f231817e8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1c14ff95100b1d6c6707853f231817e8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/df57f8f6f1d78d3d7b6517403ebcec36/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/df57f8f6f1d78d3d7b6517403ebcec36/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/92315b7a1c1918cb5aa2adc8d65932b1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/92315b7a1c1918cb5aa2adc8d65932b1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aacb58795383dcf12af3a9cace0ceca0/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/aacb58795383dcf12af3a9cace0ceca0/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6c204108d8e2375cabe6162298fc19cf/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6c204108d8e2375cabe6162298fc19cf/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8f4adfe0bcdc3c0426f1fb18d38360f7/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/8f4adfe0bcdc3c0426f1fb18d38360f7/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f7f890af77dc8c81b39c14a8c96961dd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/f7f890af77dc8c81b39c14a8c96961dd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7bde7a43e2f8d038f72ebfb12a5c861b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/7bde7a43e2f8d038f72ebfb12a5c861b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62f0e1b8f9c55b7348dbdcd87d5e04be/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62f0e1b8f9c55b7348dbdcd87d5e04be/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/51ce20a7f69ff05f59af61c2642904c3/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/51ce20a7f69ff05f59af61c2642904c3/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/805395bb649f828f1c97699b3b0013db/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/805395bb649f828f1c97699b3b0013db/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/2ace6c87f73e8711212dabe64fd3764a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/2ace6c87f73e8711212dabe64fd3764a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/75cde69f3a5242135001bc3c5e183219/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/75cde69f3a5242135001bc3c5e183219/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6ab78fd688b7e9710ff19a77394d9ea5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/6ab78fd688b7e9710ff19a77394d9ea5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/759d509ec6cbd6c705f1085eb69f9de3/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/759d509ec6cbd6c705f1085eb69f9de3/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/789654530c07d53babe6897af7f7411f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/789654530c07d53babe6897af7f7411f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/sumit/.gradle/caches/transforms-2/files-2.1/0884740eb6b174eb3f72b63e769b1229/conceal-1.1.3/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/sumit/.gradle/caches/transforms-2/files-2.1/0884740eb6b174eb3f72b63e769b1229/conceal-1.1.3/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e957f845f5498b9169734386c951ff2c/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/e957f845f5498b9169734386c951ff2c/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62403ddf31b7910ed174150c8113455e/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/62403ddf31b7910ed174150c8113455e/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+	android:value
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from [:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0e7ce266f821d9a1593ff43ad09e0bc1/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/0879c222c69a631c2bc87f61fe782fb4/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

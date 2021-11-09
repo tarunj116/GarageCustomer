@@ -1,0 +1,409 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.garagecustomer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:3-63
+12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:20-60
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:1-76
+13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:18-74
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:3-76
+14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:20-74
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:1-76
+15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:18-74
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:5-67
+16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:22-64
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
+20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+21-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+22-->[com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+22-->[com.android.installreferrer:installreferrer:1.1.2] /home/sumit/.gradle/caches/transforms-2/files-2.1/1e53a13b5945932ee47cd38d78421c0f/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+23    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+25    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+26    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+27    <!-- for Samsung -->
+28    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+28-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+28-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+29    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+29-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+29-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+30    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+31    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+32    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+33    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+34    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+35    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+36    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+37    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+38    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+39    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+40    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+41    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+42    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+43    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+44
+45    <application
+45-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:9:5-28:19
+46        android:name="com.garagecustomer.MainApplication"
+46-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:10:7-38
+47        android:allowBackup="false"
+47-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:14:7-34
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:12:7-41
+51        android:label="@string/app_name"
+51-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:11:7-39
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:13:7-52
+53        android:theme="@style/AppTheme"
+53-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:15:7-38
+54        android:usesCleartextTraffic="true" >
+54-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:7:18-53
+55        <activity
+55-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:16:7-26:18
+56            android:name="com.garagecustomer.MainActivity"
+56-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:17:9-37
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+57-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:19:9-86
+58            android:label="@string/app_name"
+58-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:18:9-41
+59            android:launchMode="singleTask"
+59-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:20:9-40
+60            android:windowSoftInputMode="adjustResize" >
+60-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:21:9-51
+61            <intent-filter>
+61-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:22:9-25:25
+62                <action android:name="android.intent.action.MAIN" />
+62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:13-65
+62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:21-62
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:13-73
+64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:23-70
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:7-84
+67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:17-81
+68
+69        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+70        <service
+70-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+71            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+71-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+72            android:exported="false" >
+72-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+73            <intent-filter>
+73-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+74                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+75            </intent-filter>
+76        </service>
+77
+78        <receiver
+78-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+79            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+79-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+80            android:exported="true"
+80-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+81            android:permission="com.google.android.c2dm.permission.SEND" >
+81-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+82            <intent-filter>
+82-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+83                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+84            </intent-filter>
+85        </receiver>
+86
+87        <meta-data
+87-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+88            android:name="firebase_messaging_auto_init_enabled"
+88-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+89            android:value="true" />
+89-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+90        <meta-data
+90-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+91            android:name="com.google.firebase.messaging.default_notification_channel_id"
+91-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+92            android:value="" />
+92-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+93        <meta-data
+93-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+94            android:name="com.google.firebase.messaging.default_notification_color"
+94-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+95            android:resource="@color/white" />
+95-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+96        <meta-data
+96-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+97            android:name="app_data_collection_default_enabled"
+97-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+98            android:value="true" />
+98-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+99
+100        <service
+100-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+101            android:name="com.google.firebase.components.ComponentDiscoveryService"
+101-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+104            <meta-data
+104-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+105                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+105-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+107            <meta-data
+107-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+108                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+108-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+111                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+111-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+114                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+114-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/fcaac7f696d790e5621604a5a4a3f8d0/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+117                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+117-->[com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-installations:17.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/5a065947ae3a1e917cd0db30a1b6dfe1/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+119        </service>
+120
+121        <provider
+121-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+122            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+122-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+123            android:authorities="com.garagecustomer.reactnativefirebaseappinitprovider"
+123-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+124            android:exported="false"
+124-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+125            android:initOrder="99" />
+125-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+126        <provider
+126-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+127            android:name="com.imagepicker.FileProvider"
+127-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+128            android:authorities="com.garagecustomer.provider"
+128-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+129            android:exported="false"
+129-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+130            android:grantUriPermissions="true" >
+130-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+131            <meta-data
+131-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+133                android:resource="@xml/provider_paths" />
+133-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+134        </provider>
+135        <provider
+135-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+136            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+136-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+137            android:authorities="com.garagecustomer.fileprovider"
+137-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+138            android:exported="false"
+138-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+139            android:grantUriPermissions="true" >
+139-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+140            <meta-data
+140-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+142                android:resource="@xml/file_provider_paths" />
+142-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+143        </provider>
+144
+145        <receiver
+145-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+149            <intent-filter>
+149-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+151            </intent-filter>
+152        </receiver>
+153        <!--
+154             FirebaseMessagingService performs security checks at runtime,
+155             but set to not exported to explicitly avoid allowing another app to call it.
+156        -->
+157        <service
+157-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+158            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+158-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+159            android:directBootAware="true"
+159-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+161            <intent-filter android:priority="-500" >
+161-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+163            </intent-filter>
+164        </service>
+165        <service
+165-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+166            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+166-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+167            android:exported="false" >
+167-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+168            <meta-data
+168-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+169                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+169-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+170                android:value="cct" />
+170-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/77b678d62ef0418dc33b0977f0cf1265/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+171        </service>
+172        <service
+172-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+173-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+174            android:exported="false"
+174-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" >
+175-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+176        </service>
+177
+178        <receiver
+178-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+179-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+180            android:exported="false" />
+180-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/093578d8ed0eea088462721764408e40/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+181
+182        <activity
+182-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+183            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+183-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+184            android:excludeFromRecents="true"
+184-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+187        <!--
+188            Service handling Google Sign-In user revocation. For apps that do not integrate with
+189            Google Sign-In, this service will never be started.
+190        -->
+191        <service
+191-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+192            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+192-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+193            android:exported="true"
+193-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+194            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+194-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+195            android:visibleToInstantApps="true" />
+195-->[com.google.android.gms:play-services-auth:19.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+196
+197        <activity
+197-->[com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+198            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+198-->[com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-base:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/1487088d0c789ac17298d84be0614f4a/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+201
+202        <provider
+202-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+203            android:name="com.google.firebase.provider.FirebaseInitProvider"
+203-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+204            android:authorities="com.garagecustomer.firebaseinitprovider"
+204-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+206            android:exported="false"
+206-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+207            android:initOrder="100" />
+207-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:17.5.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+212    </application>
+213
+214</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GarageCustomer.iml" filepath="$PROJECT_DIR$/.idea/modules/GarageCustomer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GarageCustomer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GarageCustomer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-541347501/GarageCustomer.react-native-clipboard_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/-541347501/GarageCustomer.react-native-clipboard_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1559608269/GarageCustomer.react-native-community_checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/-1559608269/GarageCustomer.react-native-community_checkbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/505998583/GarageCustomer.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/505998583/GarageCustomer.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-427360748/GarageCustomer.react-native-dark-mode.iml" filepath="$PROJECT_DIR$/.idea/modules/-427360748/GarageCustomer.react-native-dark-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-954896448/GarageCustomer.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-954896448/GarageCustomer.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-300604602/GarageCustomer.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-300604602/GarageCustomer.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1690806692/GarageCustomer.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1690806692/GarageCustomer.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2118883369/GarageCustomer.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/2118883369/GarageCustomer.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1050044289/GarageCustomer.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1050044289/GarageCustomer.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2020746837/GarageCustomer.react-native-secure-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2020746837/GarageCustomer.react-native-secure-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1324662806/GarageCustomer.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1324662806/GarageCustomer.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
