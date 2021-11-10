@@ -1,65 +1,128 @@
-import React from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import {FlatList, StyleSheet, View,Text,ScrollView,TouchableOpacity,Image,Dimensions,TextInput,SafeAreaView,StatusBar,ImageBackground} from 'react-native';
 
-import {HeaderIconButton} from '../components/HeaderIconButton';
-import {AuthContext} from '../contexts/AuthContext';
-import {Product} from '../components/Product';
-import {useGet} from '../hooks/useGet';
-import {HeaderIconsContainer} from '../components/HeaderIconsContainer';
-import {ThemeContext} from '../contexts/ThemeContext';
+import axios from 'axios';
+import { HeaderIconButton } from '../components/HeaderIconButton';
+import { AuthContext } from '../contexts/AuthContext';
+import { Product } from '../components/Product';
+import { FilledButton } from '../components/FilledButton';
+import { HeaderIconsContainer } from '../components/HeaderIconsContainer';
+import { ThemeContext } from '../contexts/ThemeContext';
+import SecureStorage from 'react-native-secure-storage';
 import Stars from 'react-native-stars';
-import { RadioButton } from 'react-native-paper';
-import {BottomNavigation} from '../components/BottomNavigation';
-export function Aboutus({navigation}) {
-  const {logout} = React.useContext(AuthContext);
-  const switchTheme = React.useContext(ThemeContext);
-  const windowHeight = Dimensions.get('window').height;
-  const [value, setValue] = React.useState('first');
+import { Avatar, RadioButton } from 'react-native-paper';
+import { BottomNavigation } from '../components/BottomNavigation';
+import { useAuth } from '../hooks/useAuth';
+import { useFocusEffect, useIsFocused } from '@react-navigation/native';
+import OtpInputs from 'react-native-otp-inputs';
+import { Loading } from '../components/Loading';
+import { BASE_URL } from '../config';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import Spinner from 'react-native-loading-spinner-overlay';
+import HTMLView from 'react-native-htmlview';
 
-  return (
-     <ImageBackground
-          style={{flex: 1,height:windowHeight,width:"100%"}}
-          source={require('../assets/aboutusbak.png')}
-          resizeMode={'stretch'}>
-    <StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
-    <View style={styles.header}>
-    <TouchableOpacity onPress={navigation.openDrawer}>
-      <Image
-          source={require('../assets/menu.png')}
-          style={{top:11,marginLeft:"6%"}}
-          /></TouchableOpacity>
-           <Text style={{marginLeft:180,marginTop:20,alignSelf:"center",color:"white",fontSize:25,fontFamily:"NexaBold"}}>About Us</Text>
-        </View>
-        <View style={styles.middle}>
-        
-           
-           
-           
-           <View
-          style={{marginTop:280,flex:0.84,margin:10,borderRadius:20,backgroundColor:"white"}}
-         >
-           <View style={{margin:20}}>
-           <Text style={{color:"#3F51B5",fontFamily:"NexaBold"}}>About Us</Text>
-           <ScrollView >
+export default class Aboutus extends Component {
+
+  static navigationOptions = {
+    // Sets the title of the Header
+    title: 'Home',
+  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      aboutUsArr:[]
      
-     <Text style={{marginTop:30,color:"#676767",fontFamily:"NexaLight"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>
-     <Text style={{color:"#676767",fontFamily:"NexaLight"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>
-     </ScrollView>
-     </View>
-          
-         
-         </View>
-        
-        
-        </View>
-        
-        <View style={styles.footer}>
-        <BottomNavigation />
-        </View>
-</ImageBackground>
-);
-}
 
+    }
+
+  }
+  async componentDidMount() {
+    this.setState({ userId: await SecureStorage.getItem("user"), userNewId: await SecureStorage.getItem("userNewId") }, () => {
+      this.getProfile();
+    });
+    this._unsubscribe = this.props.navigation.addListener("focus", async () => {
+      this.getProfile(); // this block will call when user come back
+    });
+  }
+
+  getProfile() {
+    this.setState({
+       spinner: true ,
+      })
+    const url = `${BASE_URL}/customer/get_cms`;
+    const params = {
+      "slug":"about-us"   
+  }
+    axios
+      .post(url,params, {
+        headers: {
+          "content-type": "application/json",
+        },
+      })
+      .then((response) => {
+        this.setState({ spinner: false })
+        if (response.data.success == true) {
+          this.setState({
+            aboutUsArr: response.data.data,
+          });
+          
+        } else {
+
+          console.log(response);
+        }
+      })
+      .catch(function (error) {
+        this.setState({ spinner: false })
+      });
+  }
+  
+
+  render() {
+    const { navigate } = this.props.navigation;
+    const windowHeight = Dimensions.get('window').height;
+    return (
+      <ImageBackground
+      style={{flex: 1,height:windowHeight,width:"100%"}}
+      source={require('../assets/aboutusbak.png')}
+      resizeMode={'stretch'}>
+<StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
+<View style={styles.header}>
+<TouchableOpacity onPress={this.props.navigation.openDrawer}>
+  <Image
+      source={require('../assets/menu.png')}
+      style={{top:11,marginLeft:"6%"}}
+      /></TouchableOpacity>
+       <Text style={{marginLeft:180,marginTop:20,alignSelf:"center",color:"white",fontSize:25,fontFamily:"NexaBold"}}>About Us</Text>
+    </View>
+    <View style={styles.middle}>
+    
+       
+       
+       
+       <View
+      style={{marginTop:280,flex:0.84,margin:10,borderRadius:20,backgroundColor:"white"}}
+     >
+       <View style={{margin:20}}>
+       <Text style={{color:"#3F51B5",fontFamily:"NexaBold"}}>About Us</Text>
+       <HTMLView
+        value={this.state.aboutUsArr.content}
+        stylesheet={styles}
+      />
+ </View>
+      
+     
+     </View>
+    
+    
+    </View>
+    
+    <View style={styles.footer}>
+    <BottomNavigation />
+    </View>
+</ImageBackground>
+    )
+  }
+}
 const styles = StyleSheet.create({
   container1: {
      

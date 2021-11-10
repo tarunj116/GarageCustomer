@@ -19,7 +19,7 @@ import { Loading } from '../components/Loading';
 import { BASE_URL } from '../config';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import Spinner from 'react-native-loading-spinner-overlay';
-export default class getLocation extends Component {
+export default class Locations1 extends Component {
 
   static navigationOptions = {
     // Sets the title of the Header
@@ -117,7 +117,7 @@ export default class getLocation extends Component {
           onPress: () => console.log('Cancel Pressed'),
           style: 'cancel',
         },
-        {text: 'OK', onPress: () => this.deleteAddressSubmit(address_id="")},
+        {text: 'OK', onPress: () => this.deleteAddressSubmit(address_id)},
       ],
       {cancelable: false},
     );
@@ -241,7 +241,7 @@ export default class getLocation extends Component {
                   width: '45%'
                 }}
                 onPress={() => {
-                  navigate('Locations');
+                  navigate('Locations2',{address_id:item._id});
                 }}>
                 <View style={{ flexDirection: "row" }}>
 
@@ -561,6 +561,9 @@ const styles = StyleSheet.create({
     paddingLeft: 28,
     fontSize: 18,
     marginVertical: 6,
+  },
+  spinnerTextStyle: {
+    color: '#FFF'
   },
   spinnerTextStyle: {
     color: '#FFF'

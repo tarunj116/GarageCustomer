@@ -1,135 +1,296 @@
-import React from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import {FlatList, StyleSheet, View,Text,ScrollView,TouchableOpacity,Image,Dimensions,TextInput,SafeAreaView,StatusBar,ImageBackground} from 'react-native';
 
-import {HeaderIconButton} from '../components/HeaderIconButton';
-import {AuthContext} from '../contexts/AuthContext';
-import {Product} from '../components/Product';
-import {useGet} from '../hooks/useGet';
-import {HeaderIconsContainer} from '../components/HeaderIconsContainer';
-import {ThemeContext} from '../contexts/ThemeContext';
+import axios from 'axios';
+import { HeaderIconButton } from '../components/HeaderIconButton';
+import { AuthContext } from '../contexts/AuthContext';
+import { Product } from '../components/Product';
+import { FilledButton } from '../components/FilledButton';
+import { HeaderIconsContainer } from '../components/HeaderIconsContainer';
+import { ThemeContext } from '../contexts/ThemeContext';
+import SecureStorage from 'react-native-secure-storage';
 import Stars from 'react-native-stars';
-import { RadioButton } from 'react-native-paper';
-import {BottomNavigation} from '../components/BottomNavigation';
-export function Locations({navigation}) {
-  const {logout} = React.useContext(AuthContext);
-  const switchTheme = React.useContext(ThemeContext);
-  const windowHeight = Dimensions.get('window').height;
-  const [value, setValue] = React.useState('first');
+import { Avatar, RadioButton } from 'react-native-paper';
+import { BottomNavigation } from '../components/BottomNavigation';
+import { useAuth } from '../hooks/useAuth';
+import { useFocusEffect, useIsFocused } from '@react-navigation/native';
+import OtpInputs from 'react-native-otp-inputs';
+import { Loading } from '../components/Loading';
+import { BASE_URL } from '../config';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import Spinner from 'react-native-loading-spinner-overlay';
+export default class Location extends Component {
 
-  return (
-     <ImageBackground
-          style={{flex: 1,height:windowHeight,width:"100%"}}
-          source={require('../assets/locations.png')}
-          resizeMode={'stretch'}>
-    <StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
-    <View style={styles.header}>
-    <TouchableOpacity onPress={navigation.openDrawer}>
-      <Image
-          source={require('../assets/menu.png')}
-          style={{top:11,marginLeft:"6%"}}
-          /></TouchableOpacity>
-          <Image 
-          source={require('../assets/profile.png')}
+  static navigationOptions = {
+    // Sets the title of the Header
+    title: 'Home',
+  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstname: "",
+      lastname: "",
+      email: "",
+      phone: "",
+      lat: "",
+      lng: "",
+      addressArr: [],
+      offersArr: [],
+      photoURL:
+        "https://www.pngkey.com/png/detail/230-2301779_best-classified-apps-default-user-profile.png",
+      userId: "",
+      spinner: false,
+      street: "",
+      address_line: "",
+      flat_number: "",
+      landmark: "",
+      city: "",
+      country: "",
+      lat: "",
+      long: "",
 
-          style={{top:-30,
-          alignSelf:"flex-end",height:80,width:80,borderColor: "white",borderRadius: 60,borderColor:"white"}}
-          />
-        </View>
-        <View style={styles.middle}>
-        <Image 
-          source={require('../assets/locationscircle.png')}
+    }
 
-          style={{top:-90,
-          alignSelf:"center",height:100,width:100,borderRadius: 60}}
-          />
-           <Text style={{marginTop:-100,alignSelf:"center",color:"white",fontSize:25,fontFamily:"NexaBold"}}>Location</Text>
-           <ImageBackground
-          style={{flex:0.94,margin:10,borderRadius:20,backgroundColor:"white",flexDirection:"column-reverse"}}
-          source={require('../assets/map.png')}
-          resizeMode={'stretch'}>
-            
-         <View style={{padding:20,borderRadius:10,backgroundColor:"#3F51B5"}}>
-         <Text style={{color:"white",fontFamily:"NexaLight",fontSize:20,alignSelf:"center"}}>Selected Location:</Text>
-         <View style={{flexDirection: 'row'}}><Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Street</Text>
-<Text style={{marginLeft:130,color:"white",fontFamily:"NexaLight",fontSize:10}}>Apt/Bldg #</Text></View>
-<View style={{flexDirection: 'row'}}>
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-      </View>
-      <Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Address Line</Text>
-      <TextInput
-        style={styles.address}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-      <View style={{flexDirection: 'row'}}><Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Street</Text>
-<Text style={{marginLeft:130,color:"white",fontFamily:"NexaLight",fontSize:10}}>Apt/Bldg #</Text></View>
-<View style={{flexDirection: 'row'}}>
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-      </View>
-      <View style={{flexDirection: 'row'}}><Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Street</Text>
-<Text style={{marginLeft:130,color:"white",fontFamily:"NexaLight",fontSize:10}}>Apt/Bldg #</Text></View>
-<View style={{flexDirection: 'row'}}>
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-       <TextInput
-        style={styles.fullname}
-        placeholder={'Enter text here'}
-        placeholderTextColor="#E6DDDF"
-       
-      />
-      </View>
-      <TouchableOpacity
-      style={{backgroundColor: '#FFFFFF',alignSelf: 'center',
-      justifyContent: 'center',
-      padding: 20,
-      height:10,
-      marginTop:10,
-      borderRadius: 15,
-      width:'70%'}}
-      onPress={() => {
-        navigation.navigate('home');
-      }}>
-      <Text style={{alignSelf:"center", color: '#3F51B5',fontFamily:"NexaBold",fontSize: 17}}>Confirm</Text>
-    </TouchableOpacity>
-  </View>
+  }
+  async componentDidMount() {
+    this.setState({ userId: await SecureStorage.getItem("user"), userNewId: await SecureStorage.getItem("userNewId") }, () => {
+      this.getProfile();
+    });
+    this._unsubscribe = this.props.navigation.addListener("focus", async () => {
+      this.getProfile(); // this block will call when user come back
+    });
+  }
+
+  getProfile() {
+    this.setState({
+       spinner: true ,
+       street: "",
+      address_line: "",
+      flat_number: "",
+      landmark: "",
+      city: "",
+      country: "",
+      lat: "",
+      long: "",
+      })
+    const url = `${BASE_URL}/customer/me`;
+    var token = this.state.userId.replace('"', '');
+    token = token.replace('"', '');
+    axios
+      .get(url, {
+        headers: {
+          "content-type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+      })
+      .then((response) => {
+        this.setState({ spinner: false })
+        if (response.data.success == true) {
+          this.setState({
+            firstname: response.data.data.name,
+            email: response.data.data.email,
+            phone: response.data.data.phone,
+            photoURL: response.data.data.profile_image,
+          });
           
-         </ImageBackground>
-        </View>
-        
-        <View style={styles.footer}>
-        <BottomNavigation />
-        </View>
-</ImageBackground>
-);
-}
+        } else {
 
+          console.log(response);
+        }
+      })
+      .catch(function (error) {
+        this.setState({ spinner: false })
+      });
+  }
+  addAddress() {
+    const { navigate } = this.props.navigation;
+    if(this.state.street==''){
+      alert("Please enter street");
+      return false;
+      }
+      if(this.state.address_line==''){
+      alert("Please enter address");
+      return false;
+      }
+      if(this.state.city==''){
+      alert("Please enter city");
+      return false;
+      }
+      if(this.state.country==''){
+        alert("Please enter country");
+        return false;
+        }
+        
+    var userNewId = this.state.userNewId.replace('"', '');
+    userNewId = userNewId.replace('"', '');
+    const url_new = `${BASE_URL}/customer/add_address`;
+    const params = {
+      "customer_id":userNewId,
+      "street":this.state.street,
+      "address_line":this.state.address_line,
+      "flat_number":this.state.flat_number,
+      "landmark":this.state.landmark,
+      "city":this.state.city,
+      "country":this.state.country,
+      "lat":"23.567",
+      "long":"76.5634"
+  }
+     console.log(params);
+    axios.post(url_new, params, {
+      headers: {
+        "content-type": "application/json",
+      },
+    })
+      .then((response) => {
+        if(response.data.success == true){
+          alert(response.data.msg);
+          navigate('Locations1');
+        }
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        
+      });
+  }
+  onChange = (name, value) => {
+    this.setState({ [name]: value })
+  }
+
+  render() {
+    const { navigate } = this.props.navigation;
+    const windowHeight = Dimensions.get('window').height;
+    return (
+      <ImageBackground
+      style={{flex: 1,height:windowHeight,width:"100%"}}
+      source={require('../assets/locations.png')}
+      resizeMode={'stretch'}>
+<StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
+<View style={styles.header}>
+          <TouchableOpacity onPress={this.props.navigation.openDrawer}>
+            <Image
+              source={require('../assets/menu.png')}
+              style={{ top: 11, marginLeft: 30 }}
+            /></TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => navigate("Profile")}
+
+          >
+            <Image
+              source={{ uri: this.state.photoURL }}
+              style={{
+                width: 40,
+                height: 40,
+                borderRadius: 65,
+                borderColor: "white",
+                alignSelf: "flex-end",
+                borderWidth: 3,
+                marginBottom: 20,
+                marginRight: 20
+              }}
+            />
+          </TouchableOpacity>
+        </View>
+    <ScrollView style={styles.middle}>
+    <Image 
+      source={require('../assets/locationscircle.png')}
+
+      style={{
+      alignSelf:"center",height:100,width:100,borderRadius: 60}}
+      />
+       <Text style={{alignSelf:"center",color:"white",fontSize:25,fontFamily:"NexaBold"}}>Location</Text>
+       <ImageBackground
+      style={{flex:0.94,margin:10,borderRadius:20,backgroundColor:"white",flexDirection:"column-reverse"}}
+      source={require('../assets/map.png')}
+      resizeMode={'stretch'}>
+        
+     <View style={{padding:20,borderRadius:10,backgroundColor:"#3F51B5"}}>
+     <Text style={{color:"white",fontFamily:"NexaLight",fontSize:20,alignSelf:"center"}}>Selected Location:</Text>
+     <View style={{flexDirection: 'row',justifyContent:"space-between"}}>
+       <Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Street</Text>
+<Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Apt/Bldg #</Text>
+</View>
+<View style={{flexDirection: 'row'}}>
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("street", text)}
+  />
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+   
+  />
+  </View>
+  <Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Address Line</Text>
+  <TextInput
+    style={styles.address}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("address_line", text)}
+  />
+<View style={{flexDirection: 'row',justifyContent:"space-between"}}>
+       <Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Flat Number</Text>
+<Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Nearest Landmark</Text>
+</View>
+<View style={{flexDirection: 'row'}}>
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("flat_number", text)}
+  />
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("landmark", text)}
+  />
+  </View>
+  <View style={{flexDirection: 'row',justifyContent:"space-between"}}>
+       <Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>City</Text>
+<Text style={{color:"white",fontFamily:"NexaLight",fontSize:10}}>Country</Text>
+</View>
+<View style={{flexDirection: 'row'}}>
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("city", text)}
+  />
+   <TextInput
+    style={styles.fullname}
+    placeholder={'Enter text here'}
+    placeholderTextColor="#E6DDDF"
+    onChangeText={text => this.onChange("country", text)}
+  />
+  </View>
+  <TouchableOpacity
+  style={{backgroundColor: '#FFFFFF',alignSelf: 'center',
+  justifyContent: 'center',
+  padding: 20,
+  height:10,
+  marginTop:10,
+  borderRadius: 15,
+  width:'70%'}}
+  onPress={() => {
+   this.addAddress();
+  }}>
+  <Text style={{alignSelf:"center", color: '#3F51B5',fontFamily:"NexaBold",fontSize: 17}}>Confirm</Text>
+</TouchableOpacity>
+</View>
+      
+     </ImageBackground>
+    </ScrollView>
+    
+    <View style={styles.footer}>
+    <BottomNavigation />
+    </View>
+</ImageBackground>
+    )
+  }
+}
 const styles = StyleSheet.create({
   container1: {
      
@@ -161,7 +322,7 @@ text_header: {
     fontSize: 30,
 },
 middle: {
-  flex: 2.4,
+  
 
 },
 footer: {

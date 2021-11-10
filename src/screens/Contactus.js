@@ -1,39 +1,183 @@
-import React from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import {FlatList, StyleSheet, View,Text,ScrollView,TouchableOpacity,Image,Dimensions,TextInput,SafeAreaView,StatusBar,ImageBackground} from 'react-native';
 
-import {HeaderIconButton} from '../components/HeaderIconButton';
-import {AuthContext} from '../contexts/AuthContext';
-import {Product} from '../components/Product';
-import {useGet} from '../hooks/useGet';
-import {HeaderIconsContainer} from '../components/HeaderIconsContainer';
-import {ThemeContext} from '../contexts/ThemeContext';
+import axios from 'axios';
+import { HeaderIconButton } from '../components/HeaderIconButton';
+import { AuthContext } from '../contexts/AuthContext';
+import { Product } from '../components/Product';
+import { FilledButton } from '../components/FilledButton';
+import { HeaderIconsContainer } from '../components/HeaderIconsContainer';
+import { ThemeContext } from '../contexts/ThemeContext';
+import SecureStorage from 'react-native-secure-storage';
 import Stars from 'react-native-stars';
-import { RadioButton } from 'react-native-paper';
-import {BottomNavigation} from '../components/BottomNavigation';
-export function Contactus({navigation}) {
-  const {logout} = React.useContext(AuthContext);
-  const switchTheme = React.useContext(ThemeContext);
-  const windowHeight = Dimensions.get('window').height;
-  const [value, setValue] = React.useState('first');
+import { Avatar, RadioButton } from 'react-native-paper';
+import { BottomNavigation } from '../components/BottomNavigation';
+import { useAuth } from '../hooks/useAuth';
+import { useFocusEffect, useIsFocused } from '@react-navigation/native';
+import OtpInputs from 'react-native-otp-inputs';
+import { Loading } from '../components/Loading';
+import { BASE_URL } from '../config';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import Spinner from 'react-native-loading-spinner-overlay';
+export default class Contactus extends Component {
 
-  return (
-     <ImageBackground
+  static navigationOptions = {
+    // Sets the title of the Header
+    title: 'Home',
+  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstname: "",
+      lastname: "",
+      email: "",
+      phone: "",
+      lat: "",
+      lng: "",
+      addressArr: [],
+      offersArr: [],
+      photoURL:
+        "https://www.pngkey.com/png/detail/230-2301779_best-classified-apps-default-user-profile.png",
+      userId: "",
+      spinner: false,
+      full_name: "",
+      full_email: "",
+      feedback: "",
+     
+
+    }
+
+  }
+  async componentDidMount() {
+    this.setState({ userId: await SecureStorage.getItem("user"), userNewId: await SecureStorage.getItem("userNewId") }, () => {
+      this.getProfile();
+    });
+    this._unsubscribe = this.props.navigation.addListener("focus", async () => {
+      this.getProfile(); // this block will call when user come back
+    });
+  }
+
+  getProfile() {
+    this.setState({
+       spinner: true ,
+       full_name: "",
+      full_email: "",
+      feedback: "",
+      })
+    const url = `${BASE_URL}/customer/me`;
+    var token = this.state.userId.replace('"', '');
+    token = token.replace('"', '');
+    axios
+      .get(url, {
+        headers: {
+          "content-type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+      })
+      .then((response) => {
+        this.setState({ spinner: false })
+        if (response.data.success == true) {
+          this.setState({
+            firstname: response.data.data.name,
+            email: response.data.data.email,
+            phone: response.data.data.phone,
+            photoURL: response.data.data.profile_image,
+          });
+          
+        } else {
+
+          console.log(response);
+        }
+      })
+      .catch(function (error) {
+        this.setState({ spinner: false })
+      });
+  }
+  submitContactUs() {
+    const { navigate } = this.props.navigation;
+    var userNewId = this.state.userNewId.replace('"', '');
+    userNewId = userNewId.replace('"', '');
+    if(this.state.full_name==''){
+      alert("Please enter full name");
+      return false;
+      }
+      if(this.state.full_email==''){
+      alert("Please enter address");
+      return false;
+      }
+      if(this.state.feedback==''){
+      alert("Please enter feedback");
+      return false;
+      }
+        
+  
+    const url_new = `${BASE_URL}/customer/store_contact`;
+    const params = {
+      "customer_id":userNewId,
+      "name":this.state.full_name,
+      "email":this.state.full_email,
+      "feedback":this.state.feedback,
+      
+  }
+     console.log(params);
+    axios.post(url_new, params, {
+      headers: {
+        "content-type": "application/json",
+      },
+    })
+      .then((response) => {
+        if(response.data.success == true){
+          alert(response.data.msg);
+          navigate('home');
+        }
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        
+      });
+  }
+  onChange = (name, value) => {
+    this.setState({ [name]: value })
+  }
+
+  render() {
+    const { navigate } = this.props.navigation;
+    const windowHeight = Dimensions.get('window').height;
+    return (
+      <ImageBackground
           style={{flex: 1,height:windowHeight,width:"100%"}}
           source={require('../assets/contactusback.png')}
           resizeMode={'stretch'}>
     <StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
-    <View style={styles.header}>
-    <TouchableOpacity onPress={navigation.openDrawer}>
-      <Image
-          source={require('../assets/menu.png')}
-          style={{top:11,marginLeft:"6%"}}
-          /></TouchableOpacity>
-          <Image 
-          source={require('../assets/profile.png')}
+    <Spinner
+          visible={this.state.spinner}
+          textContent={'Loading...'}
+          textStyle={styles.spinnerTextStyle}
+        />
+ <View style={styles.header}>
+          <TouchableOpacity onPress={this.props.navigation.openDrawer}>
+            <Image
+              source={require('../assets/menu.png')}
+              style={{ top: 11, marginLeft: 30 }}
+            /></TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => navigate("Profile")}
 
-          style={{top:-30,
-          alignSelf:"flex-end",height:80,width:80,borderColor: "white",borderRadius: 60,borderColor:"white"}}
-          />
+          >
+            <Image
+              source={{ uri: this.state.photoURL }}
+              style={{
+                width: 40,
+                height: 40,
+                borderRadius: 65,
+                borderColor: "white",
+                alignSelf: "flex-end",
+                borderWidth: 3,
+                marginBottom: 20,
+                marginRight: 20
+              }}
+            />
+          </TouchableOpacity>
         </View>
         <View style={styles.middle}>
         <Image 
@@ -54,14 +198,14 @@ export function Contactus({navigation}) {
         style={styles.fullname}
         placeholder={'Full Name'}
         placeholderTextColor="#AEADAD"
-       
+        onChangeText={text => this.onChange("full_name", text)}
       />
       <Text style={{color:"#3F51B5",fontFamily:"NexaBold"}}>Email address</Text>
               <TextInput
         style={styles.fullname}
         placeholder={'Email address'}
         placeholderTextColor="#AEADAD"
-       
+        onChangeText={text => this.onChange("full_email", text)}
       />
       
       <Text style={{color:"#3F51B5",fontFamily:"NexaBold",marginTop:10}}>Feedback:</Text>
@@ -70,7 +214,7 @@ export function Contactus({navigation}) {
         style={styles.textarea}
         placeholder={'Email address'}
         placeholderTextColor="#AEADAD"
-       
+        onChangeText={text => this.onChange("feedback", text)}
       />
       
      </View>
@@ -88,7 +232,7 @@ export function Contactus({navigation}) {
       marginBottom:55,
       width:'70%',zIndex:1}}
       onPress={() => {
-        navigation.navigate('home');
+       this.submitContactUs();
       }}>
       <Text style={{ alignSelf:"center",color: '#FFFFFF',fontFamily:"NexaBold",fontSize: 17}}>Submit Feedback</Text>
     </TouchableOpacity>
@@ -99,9 +243,9 @@ export function Contactus({navigation}) {
         <BottomNavigation />
         </View>
 </ImageBackground>
-);
+    )
+  }
 }
-
 const styles = StyleSheet.create({
   container1: {
      

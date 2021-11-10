@@ -5,20 +5,21 @@ import HomeScreen from '../screens/HomeScreen';
 import EditProfile from '../screens/EditProfile';
 import Profile from '../screens/Profile';
 import Notifications from '../screens/Notifications';
-import {Locations} from '../screens/Locations';
+import Locations from '../screens/Locations';
 import Locations1 from '../screens/Locations1';
+import Locations2 from '../screens/Locations2';
 import {Privacy} from '../screens/Privacy';
-import {Terms} from '../screens/Terms';
+import Terms from '../screens/Terms';
 import {Language} from '../screens/Language';
-import {Faq} from '../screens/Faq';
+import Faq from '../screens/Faq';
 import MyCards from '../screens/MyCards';
 import payFromCard from '../screens/payFromCard';
 import webView from '../screens/webView';
 import MyCards1 from '../screens/MyCards1';
 import  Messages  from "../screens/Messages";
 import  Messages1  from "../screens/Messages1";
-import {Contactus} from '../screens/Contactus';
-import {Aboutus} from '../screens/Aboutus';
+import Contactus from '../screens/Contactus';
+import Aboutus from '../screens/Aboutus';
 import Offers from '../screens/offers/Offers';
 import Offers1 from '../screens/offers/Offers1';
 import Offers2 from '../screens/offers/Offers2';
@@ -261,6 +262,7 @@ export function MainStackNavigator({navigation}) {
       <Drawer.Screen name="ChangePasswordScreen" component={ChangePasswordScreen} />
       <Drawer.Screen name="Locations" component={Locations} />
       <Drawer.Screen name="Locations1" component={Locations1} />
+      <Drawer.Screen name="Locations2" component={Locations2} />
       <Drawer.Screen name="MyCards" component={MyCards} />
       <Drawer.Screen name="payFromCard" component={payFromCard} />
       <Drawer.Screen name="webView" component={webView} />

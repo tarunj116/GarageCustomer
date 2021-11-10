@@ -1,23 +1,80 @@
-import React from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import {FlatList, StyleSheet, View,Text,ScrollView,TouchableOpacity,Image,Dimensions,TextInput,SafeAreaView,StatusBar,ImageBackground} from 'react-native';
-import {AuthContext} from '../contexts/AuthContext';
-import {ThemeContext} from '../contexts/ThemeContext';
-import {BottomNavigation} from '../components/BottomNavigation';
-import { List } from 'react-native-paper';
-export function Faq({navigation}) {
-  const {logout} = React.useContext(AuthContext);
-  const switchTheme = React.useContext(ThemeContext);
-  const windowHeight = Dimensions.get('window').height;
-  const [value, setValue] = React.useState('first');
 
-  return (
-     <ImageBackground
+import axios from 'axios';
+import SecureStorage from 'react-native-secure-storage';
+import { BottomNavigation } from '../components/BottomNavigation';
+import { useAuth } from '../hooks/useAuth';
+import { useFocusEffect, useIsFocused } from '@react-navigation/native';
+import OtpInputs from 'react-native-otp-inputs';
+import { Loading } from '../components/Loading';
+import { BASE_URL } from '../config';
+import { List } from 'react-native-paper';
+export default class Faq extends Component {
+
+  static navigationOptions = {
+    // Sets the title of the Header
+    title: 'Home',
+  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      faqArr:[]
+     
+
+    }
+
+  }
+  async componentDidMount() {
+    this.setState({ userId: await SecureStorage.getItem("user"), userNewId: await SecureStorage.getItem("userNewId") }, () => {
+      this.getProfile();
+    });
+    this._unsubscribe = this.props.navigation.addListener("focus", async () => {
+      this.getProfile(); // this block will call when user come back
+    });
+  }
+
+  getProfile() {
+   
+    const url = `${BASE_URL}/customer/get_cms`;
+    const params = {
+      "slug":"faq"   
+  }
+    axios
+      .post(url,params, {
+        headers: {
+          "content-type": "application/json",
+        },
+      })
+      .then((response) => {
+       console.log(response.data.data);
+        if (response.data.success == true) {
+          this.setState({
+            faqArr: response.data.data.content,
+          });
+          
+        } else {
+
+          console.log(response);
+        }
+      })
+      .catch(function (error) {
+       
+      });
+  }
+  
+
+  render() {
+    const { navigate } = this.props.navigation;
+    const windowHeight = Dimensions.get('window').height;
+    return (
+      <ImageBackground
           style={{flex: 1,height:windowHeight,width:"100%"}}
           source={require('../assets/faqback.png')}
           resizeMode={'stretch'}>
     <StatusBar backgroundColor='#3F51B5' barStyle="light-content"/>
     <View style={styles.header}>
-    <TouchableOpacity onPress={navigation.openDrawer}>
+    <TouchableOpacity onPress={this.props.navigation.openDrawer}>
       <Image
           source={require('../assets/menu.png')}
           style={{top:11,marginLeft:"6%"}}
@@ -34,49 +91,21 @@ export function Faq({navigation}) {
          >
            <ScrollView style={{height:"100%",marginTop:15}}>
            <List.AccordionGroup>
-            
-    <List.Accordion title={<Text style={{color:"#3F51B5"}}>Frequently Asked Question 1</Text>} id="1" style={{backgroundColor:"white",borderRadius:20,}}>
-    <List.Item title={<Text numberOfLines={4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,}}/>
+           <FlatList
+                data={this.state.faqArr}
+                // style={{ flex: 1, margin:"5%"}}
+
+                keyExtractor={(item, index) => {
+                  return String(index);
+                }}
+                renderItem={({ item, index }) => {
+                  
+                  return (
+    <List.Accordion title={<Text style={{color:"#3F51B5"}}>{item.title}</Text>} id={{index}} style={{backgroundColor:"white",borderRadius:20,}}>
+    <List.Item title={<Text numberOfLines={4}>{item.answer}</Text>} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,}}/>
     </List.Accordion>
-  
-    <List.Accordion title={<Text style={{color:"#3F51B5"}}>Frequently Asked Question 2</Text>} id="2" theme={{ colors: { primary: '#fff' }}} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,shadowColor: '#000',
-  shadowOffset: { width: 1, height: 1 },
-  shadowOpacity:  0.4,
-  shadowRadius: 3,
-  elevation: 5, marginVertical: 1,}}>
-      <List.Item title="Item 2" style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20}}/>
-    </List.Accordion>
-    <View>
-     
-      <List.Accordion title={<Text style={{color:"#3F51B5"}}>Frequently Asked Question 3</Text>} id="3" theme={{ colors: { primary: '#fff' }}} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,shadowColor: '#000',
-  shadowOffset: { width: 1, height: 1 },
-  shadowOpacity:  0.4,
-  shadowRadius: 3,
-  elevation: 5, marginVertical: 1,}}>
-        <List.Item title="Item 3" style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20}}/>
-      </List.Accordion>
-      <List.Accordion title={<Text style={{color:"#3F51B5"}}>Accordion title</Text>} id="4" theme={{ colors: { primary: '#fff' }}} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,shadowColor: '#000',
-  shadowOffset: { width: 1, height: 1 },
-  shadowOpacity:  0.4,
-  shadowRadius: 3,
-  elevation: 5, marginVertical: 1,}}>
-        <List.Item title="Item 4" style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20}}/>
-      </List.Accordion>
-      <List.Accordion title={<Text style={{color:"#3F51B5"}}>Frequently Asked Question 5</Text>} id="4" theme={{ colors: { primary: '#fff' }}} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,shadowColor: '#000',
-  shadowOffset: { width: 1, height: 1 },
-  shadowOpacity:  0.4,
-  shadowRadius: 3,
-  elevation: 5, marginVertical: 1,}}>
-        <List.Item title="Item 5" style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20}}/>
-      </List.Accordion>
-      <List.Accordion title={<Text style={{color:"#3F51B5"}}>Frequently Asked Question 6</Text>} id="4" theme={{ colors: { primary: '#fff' }}} style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20,shadowColor: '#000',
-  shadowOffset: { width: 1, height: 1 },
-  shadowOpacity:  0.4,
-  shadowRadius: 3,
-  elevation: 5, marginVertical: 1,}}>
-        <List.Item title="Item 6" style={{backgroundColor:"white",borderBottomLeftRadius:20,borderBottomRightRadius:20}}/>
-      </List.Accordion>
-    </View>
+                  )}}
+     />
   </List.AccordionGroup>
   </ScrollView>
           
@@ -90,9 +119,9 @@ export function Faq({navigation}) {
         <BottomNavigation />
         </View>
 </ImageBackground>
-);
+    )
+  }
 }
-
 const styles = StyleSheet.create({
   container1: {
      
