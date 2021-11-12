@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/35882e57c77712ae4c9ffda1caa68faf/jetified-play-services-basement-17.5.0/res/values-sv/values.xml",

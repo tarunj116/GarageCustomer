@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/edd7117d27c9fc3962fceaeb6b3c1391/play-services-auth-19.2.0/res/values-watch-v20/values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
                     "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/822bc5d92f0154101d3c52f9ad06ec4d/material-1.1.0/res/values-v28/values-v28.xml",

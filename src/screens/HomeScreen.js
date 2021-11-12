@@ -77,8 +77,11 @@ export default class HomeScreen extends Component {
           title: remoteMessage.notification.title,
           bigPictureUrl: remoteMessage.notification.android.imageUrl,
           smallIcon: remoteMessage.notification.android.imageUrl,
+          channelId: "channel-id",
         });
       });
+     
+      
       return unsubscribe;
    
 

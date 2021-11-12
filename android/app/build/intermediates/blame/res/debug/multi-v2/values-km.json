@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/res/values-km/values.xml",

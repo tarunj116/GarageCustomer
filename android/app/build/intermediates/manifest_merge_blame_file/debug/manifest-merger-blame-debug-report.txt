@@ -9,35 +9,35 @@
 9        android:targetSdkVersion="28" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:3-63
-12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:3:20-60
+12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:3:3-63
+12-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:3:20-60
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:1-76
-13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:4:18-74
+13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:4:1-76
+13-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:4:18-74
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:3-76
-14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:5:20-74
+14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:5:3-76
+14-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:5:20-74
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:1-76
-15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:6:18-74
+15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:6:1-76
+15-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:6:18-74
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:5-67
-16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:7:22-64
+16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:7:5-67
+16-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:7:22-64
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 17-->[com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:5-76
 17-->[com.facebook.flipper:flipper:0.47.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/325da4badf486e2ec06496d30c649fd3/flipper-0.47.0/AndroidManifest.xml:16:22-73
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
-18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
 20    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
-20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
+20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
+20-->[:react-native-secure-storage] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
 21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 21-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
 21-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
@@ -99,129 +99,129 @@
 43-->[me.leolin:ShortcutBadger:1.1.22] /home/sumit/.gradle/caches/transforms-2/files-2.1/333af8e9578b8359cff52738d9b0b0d5/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 44
 45    <application
-45-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:9:5-28:19
+45-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:9:5-28:19
 46        android:name="com.garagecustomer.MainApplication"
-46-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:10:7-38
+46-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:10:7-38
 47        android:allowBackup="false"
-47-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:14:7-34
+47-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:14:7-34
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 48-->[androidx.core:core:1.2.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/32cb212a90e9ba7f07befd463e5d1406/core-1.2.0/AndroidManifest.xml:24:18-86
 49        android:debuggable="true"
 50        android:icon="@mipmap/ic_launcher"
-50-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:12:7-41
+50-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:12:7-41
 51        android:label="@string/app_name"
-51-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:11:7-39
+51-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:11:7-39
 52        android:roundIcon="@mipmap/ic_launcher_round"
-52-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:13:7-52
+52-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:13:7-52
 53        android:theme="@style/AppTheme"
-53-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:15:7-38
+53-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:15:7-38
 54        android:usesCleartextTraffic="true" >
-54-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/debug/AndroidManifest.xml:7:18-53
+54-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/debug/AndroidManifest.xml:7:18-53
 55        <activity
-55-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:16:7-26:18
+55-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:16:7-26:18
 56            android:name="com.garagecustomer.MainActivity"
-56-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:17:9-37
+56-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:17:9-37
 57            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-57-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:19:9-86
+57-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:19:9-86
 58            android:label="@string/app_name"
-58-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:18:9-41
+58-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:18:9-41
 59            android:launchMode="singleTask"
-59-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:20:9-40
+59-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:20:9-40
 60            android:windowSoftInputMode="adjustResize" >
-60-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:21:9-51
+60-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:21:9-51
 61            <intent-filter>
-61-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:22:9-25:25
+61-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:22:9-25:25
 62                <action android:name="android.intent.action.MAIN" />
-62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:13-65
-62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:23:21-62
+62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:23:13-65
+62-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:23:21-62
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:13-73
-64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:24:23-70
+64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:24:13-73
+64-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:24:23-70
 65            </intent-filter>
 66        </activity>
 67        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:7-84
-67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/android/app/src/main/AndroidManifest.xml:27:17-81
+67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:27:7-84
+67-->/opt/lampp/htdocs/GarageCustomer/GarageCustomer/android/app/src/main/AndroidManifest.xml:27:17-81
 68
 69        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
-69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
-69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+69-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
 70        <service
-70-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+70-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
 71            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-71-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+71-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
 72            android:exported="false" >
-72-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+72-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
 73            <intent-filter>
-73-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+73-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
 74                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
-74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+74-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
 75            </intent-filter>
 76        </service>
 77
 78        <receiver
-78-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+78-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
 79            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-79-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+79-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
 80            android:exported="true"
-80-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+80-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
 81            android:permission="com.google.android.c2dm.permission.SEND" >
-81-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+81-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
 82            <intent-filter>
-82-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+82-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
 83                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
-83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+83-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 84            </intent-filter>
 85        </receiver>
 86
 87        <meta-data
-87-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+87-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
 88            android:name="firebase_messaging_auto_init_enabled"
-88-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+88-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
 89            android:value="true" />
-89-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+89-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
 90        <meta-data
-90-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+90-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
 91            android:name="com.google.firebase.messaging.default_notification_channel_id"
-91-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+91-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
 92            android:value="" />
-92-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+92-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
 93        <meta-data
-93-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+93-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
 94            android:name="com.google.firebase.messaging.default_notification_color"
-94-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+94-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
 95            android:resource="@color/white" />
-95-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+95-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
 96        <meta-data
-96-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+96-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
 97            android:name="app_data_collection_default_enabled"
-97-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+97-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
 98            android:value="true" />
-98-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+98-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
 99
 100        <service
-100-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+100-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
 101            android:name="com.google.firebase.components.ComponentDiscoveryService"
-101-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+101-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
 102            android:directBootAware="true"
 102-->[com.google.firebase:firebase-common:20.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/c7a9aaa6791f3749c07a9990f0931717/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 103            android:exported="false" >
 103-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
 104            <meta-data
-104-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+104-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
 105                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-105-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+105-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
 106                android:value="com.google.firebase.components.ComponentRegistrar" />
-106-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+106-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
 107            <meta-data
-107-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+107-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
 108                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
-108-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+108-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
 109                android:value="com.google.firebase.components.ComponentRegistrar" />
-109-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+109-->[:react-native-firebase] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
 110            <meta-data
 110-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
 111                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
@@ -243,48 +243,48 @@
 119        </service>
 120
 121        <provider
-121-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+121-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
 122            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-122-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+122-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
 123            android:authorities="com.garagecustomer.reactnativefirebaseappinitprovider"
-123-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+123-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
 124            android:exported="false"
-124-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+124-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
 125            android:initOrder="99" />
-125-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+125-->[:react-native-firebase_app] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
 126        <provider
-126-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+126-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
 127            android:name="com.imagepicker.FileProvider"
-127-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+127-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
 128            android:authorities="com.garagecustomer.provider"
-128-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+128-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
 129            android:exported="false"
-129-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+129-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
 130            android:grantUriPermissions="true" >
-130-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+130-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
 131            <meta-data
-131-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+131-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
 132                android:name="android.support.FILE_PROVIDER_PATHS"
-132-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+132-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
 133                android:resource="@xml/provider_paths" />
-133-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+133-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
 134        </provider>
 135        <provider
-135-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+135-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 136            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-136-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+136-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
 137            android:authorities="com.garagecustomer.fileprovider"
-137-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+137-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
 138            android:exported="false"
-138-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+138-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 139            android:grantUriPermissions="true" >
-139-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+139-->[:react-native-webview] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 140            <meta-data
-140-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+140-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
 141                android:name="android.support.FILE_PROVIDER_PATHS"
-141-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+141-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
 142                android:resource="@xml/file_provider_paths" />
-142-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+142-->[:react-native-image-picker] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
 143        </provider>
 144
 145        <receiver
@@ -296,10 +296,10 @@
 148            android:permission="com.google.android.c2dm.permission.SEND" >
 148-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
 149            <intent-filter>
-149-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+149-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
 150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
-150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+150-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
 151            </intent-filter>
 152        </receiver>
 153        <!--
@@ -315,10 +315,10 @@
 160            android:exported="false" >
 160-->[com.google.firebase:firebase-messaging:22.0.0] /home/sumit/.gradle/caches/transforms-2/files-2.1/b0e67771babf713a678be463079d0ada/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
 161            <intent-filter android:priority="-500" >
-161-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+161-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
 162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
-162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomerV2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+162-->[:react-native-firebase_messaging] /opt/lampp/htdocs/GarageCustomer/GarageCustomer/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
 163            </intent-filter>
 164        </service>
 165        <service
